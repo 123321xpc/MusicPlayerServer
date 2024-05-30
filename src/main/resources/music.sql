@@ -11,7 +11,7 @@
  Target Server Version : 50739
  File Encoding         : 65001
 
- Date: 25/05/2024 10:48:53
+ Date: 30/05/2024 22:58:41
 */
 
 SET NAMES utf8mb4;
@@ -39,7 +39,7 @@ INSERT INTO `music` VALUES ('1788119202432311298', '断桥残雪', '许嵩', '�
 INSERT INTO `music` VALUES ('1788163405086494722', '曼陀山庄', '许嵩', '曼陀山庄-许嵩', 'hot');
 INSERT INTO `music` VALUES ('1788163407359807490', '灰色头像', '许嵩', '灰色头像-许嵩', 'hot');
 INSERT INTO `music` VALUES ('1788166987978375170', '大千世界', '许嵩', '大千世界-许嵩', 'new');
-INSERT INTO `music` VALUES ('1788166990184579074', '纸上雪', '许嵩', '纸上雪-许嵩', 'new');
+INSERT INTO `music` VALUES ('1788166990184579074', '纸上雪', '许嵩', '纸上雪-许嵩', 'hot');
 INSERT INTO `music` VALUES ('1788167169386237953', '半城烟沙', '许嵩', '半城烟沙-许嵩', 'rise');
 INSERT INTO `music` VALUES ('1788167171441446914', '惊鸿一面', '许嵩&黄龄', '惊鸿一面-许嵩&黄龄', 'hot');
 INSERT INTO `music` VALUES ('1789131646793781249', '关键词', '林俊杰', '关键词-林俊杰', 'hot');
