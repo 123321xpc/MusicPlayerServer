@@ -11,7 +11,7 @@
  Target Server Version : 50739
  File Encoding         : 65001
 
- Date: 30/05/2024 22:58:41
+ Date: 04/06/2024 12:17:32
 */
 
 SET NAMES utf8mb4;
@@ -62,5 +62,20 @@ INSERT INTO `music` VALUES ('1789131907499102211', '纸上雪', '许嵩', '纸�
 INSERT INTO `music` VALUES ('1789131907499102212', '蓝莲花', '许巍', '蓝莲花-许巍', 'new');
 INSERT INTO `music` VALUES ('1789131907557822466', '邂逅一夏', '余佳运&王OK', '邂逅一夏-余佳运&王OK', 'hot');
 INSERT INTO `music` VALUES ('1789131907557822467', '黑暗骑士(feat. 五月天)', '五月天&林俊杰', '黑暗骑士(feat. 五月天)-五月天&林俊杰', 'new');
+
+-- ----------------------------
+-- Table structure for user
+-- ----------------------------
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE `user`  (
+  `username` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `password` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of user
+-- ----------------------------
+INSERT INTO `user` VALUES ('admin', 'admin');
+INSERT INTO `user` VALUES ('hjp', 'hjp');
 
 SET FOREIGN_KEY_CHECKS = 1;

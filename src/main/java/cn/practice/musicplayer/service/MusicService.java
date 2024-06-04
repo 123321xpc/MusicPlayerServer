@@ -34,7 +34,6 @@ public class MusicService {
 
     public List<Music> getNetMusicByCategory(String category) {
         Map<String, Object> map = new HashMap<>();
-        System.out.println(category);
         map.put("category", category);
         return musicMapper.selectByMap(map);
     }
